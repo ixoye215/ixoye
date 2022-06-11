@@ -1,26 +1,31 @@
 Swal.fire({
     title: 'Me regustas',
     confirmButtonText: 'Ok',
+    allowOutsideClick: false
 }).then((result) => {
     if (result.isConfirmed) {
         Swal.fire({
             title: 'Pero hace de cuenta que no te dije',
             confirmButtonText: 'Ok',
+            allowOutsideClick: false
         }).then((result) => {
             if (result.isConfirmed) {
                 Swal.fire({
                     title: 'Poke me da verguenza',
                     confirmButtonText: 'Ok',
+                    allowOutsideClick: false
                 }).then((result) => {
                     if (result.isConfirmed) {
                         Swal.fire({
                             title: 'Ameno de que yo tambien te guste',
                             confirmButtonText: 'Ok',
+                            allowOutsideClick: false
                         }).then((result) => {
                             if (result.isConfirmed) {
                                 Swal.fire({
                                     title: 'Ahi si se me va un pokito la vergüenzita',
                                     confirmButtonText: 'Ok',
+                                    allowOutsideClick: false
                                 }).then((result) => {
                                     if (result.isConfirmed) {
                                         Swal.fire({
@@ -29,36 +34,43 @@ Swal.fire({
                                             imageAlt: 'Gatito esperando respuesta',
                                             title: 'No querer tener una cita conmigo?',
                                             confirmButtonText: 'Sii',
+                                            allowOutsideClick: false
                                         }).then((result) => {
                                             if (result.isConfirmed) {
                                                 Swal.fire({
                                                     title: 'Yo digo no más',
                                                     confirmButtonText: 'Ok',
+                                                    allowOutsideClick: false
                                                 }).then((result) => {
                                                     if (result.isConfirmed) {
                                                         Swal.fire({
                                                             title: 'Te la tiro',
                                                             confirmButtonText: 'Ok',
+                                                            allowOutsideClick: false
                                                         }).then((result) => {
                                                             if (result.isConfirmed) {
                                                                 Swal.fire({
                                                                     title: 'Si no queres',
                                                                     confirmButtonText: 'Ok',
+                                                                    allowOutsideClick: false
                                                                 }).then((result) => {
                                                                     if (result.isConfirmed) {
                                                                         Swal.fire({
                                                                             title: 'Era un chiste',
                                                                             confirmButtonText: 'Ok',
+                                                                            allowOutsideClick: false
                                                                         }).then((result) => {
                                                                             if (result.isConfirmed) {
                                                                                 Swal.fire({
                                                                                     title: 'Pero si queres',
                                                                                     confirmButtonText: 'Ok',
+                                                                                    allowOutsideClick: false
                                                                                 }).then((result) => {
                                                                                     if (result.isConfirmed) {
                                                                                         Swal.fire({
                                                                                             title: 'Capaz no era tan chiste',
                                                                                             confirmButtonText: 'Ok',
+                                                                                            allowOutsideClick: false
                                                                                         }).then((result) => {
                                                                                             if (result.isConfirmed) {
                                                                                                 Swal.fire({
